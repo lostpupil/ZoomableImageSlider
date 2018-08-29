@@ -12,7 +12,7 @@ public class ZoomableImageSlider: UIPageViewController {
     var images = [String]()
     fileprivate var currentIndex: Int?
     let imageIndexLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 40))
-    let closeButton = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+    public let closeButton = UIButton(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
     
     
     init() {
